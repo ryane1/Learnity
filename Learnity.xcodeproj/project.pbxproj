@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7BD4FA62935AD4C002592CA /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BD4FA52935AD4C002592CA /* Transition.swift */; };
+		B7BD4FA82936CF0A002592CA /* Login Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BD4FA72936CF0A002592CA /* Login Page.swift */; };
+		B7BD4FAA2936D0E3002592CA /* Create your account.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BD4FA92936D0E3002592CA /* Create your account.swift */; };
+		B7BD4FAC2936D144002592CA /* ConfirmPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BD4FAB2936D144002592CA /* ConfirmPass.swift */; };
+		B7BD4FAE2936D223002592CA /* Email submission page.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BD4FAD2936D223002592CA /* Email submission page.swift */; };
+		B7BD4FB02936D321002592CA /* Contact Us Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BD4FAF2936D321002592CA /* Contact Us Page.swift */; };
+		B7BD4FB22936D338002592CA /* Cancel Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BD4FB12936D338002592CA /* Cancel Page.swift */; };
+		B7BD4FB42936DBD2002592CA /* Event Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BD4FB32936DBD2002592CA /* Event Page.swift */; };
+		B7BD4FB62936F1BE002592CA /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BD4FB52936F1BE002592CA /* Settings.swift */; };
+		B7BD4FB82936F299002592CA /* EditEventFormOwner .swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BD4FB72936F299002592CA /* EditEventFormOwner .swift */; };
+		B7BD4FBA2936F4A9002592CA /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BD4FB92936F4A9002592CA /* About.swift */; };
+		B7BD4FBC2936FF78002592CA /* Settings Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BD4FBB2936FF78002592CA /* Settings Main.swift */; };
+		B7BD4FBE2937039C002592CA /* EventFormOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BD4FBD2937039C002592CA /* EventFormOwner.swift */; };
+		B7BD4FC029370F54002592CA /* EditEventFormSharer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BD4FBF29370F54002592CA /* EditEventFormSharer.swift */; };
+		B7BD4FC229370FED002592CA /* EventFormSharer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BD4FC129370FED002592CA /* EventFormSharer.swift */; };
+		B7BD4FC429371613002592CA /* TransitionCancel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BD4FC329371613002592CA /* TransitionCancel.swift */; };
+		B7BD4FC629384AD5002592CA /* TransitionSaved.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BD4FC529384AD5002592CA /* TransitionSaved.swift */; };
+		B7BD4FC82938F72D002592CA /* EventSubmissionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BD4FC72938F72D002592CA /* EventSubmissionPage.swift */; };
+		B7BD4FCC2939757B002592CA /* MyInterestsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BD4FCB2939757A002592CA /* MyInterestsPage.swift */; };
+		B7BD4FCE29397596002592CA /* EditInterestsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BD4FCD29397596002592CA /* EditInterestsPage.swift */; };
+		B7BD4FD0293975B1002592CA /* AllTopicsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BD4FCF293975B1002592CA /* AllTopicsPage.swift */; };
+		B7BD4FD2293975C0002592CA /* CodingTopicPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BD4FD1293975C0002592CA /* CodingTopicPage.swift */; };
+		B7BD4FD429398115002592CA /* EditEventPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BD4FD329398115002592CA /* EditEventPage.swift */; };
+		B7D10004292C4A51000B15D1 /* LearnityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D10003292C4A51000B15D1 /* LearnityApp.swift */; };
+		B7D10006292C4A51000B15D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D10005292C4A51000B15D1 /* ContentView.swift */; };
+		B7D10008292C4A54000B15D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7D10007292C4A54000B15D1 /* Assets.xcassets */; };
+		B7D1000B292C4A54000B15D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7D1000A292C4A54000B15D1 /* Preview Assets.xcassets */; };
+		B7D10015292C4A54000B15D1 /* LearnityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D10014292C4A54000B15D1 /* LearnityTests.swift */; };
+		B7D1001F292C4A54000B15D1 /* LearnityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D1001E292C4A54000B15D1 /* LearnityUITests.swift */; };
+		B7D10021292C4A54000B15D1 /* LearnityUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D10020292C4A54000B15D1 /* LearnityUITestsLaunchTests.swift */; };
+		B7D1003E292C503F000B15D1 /* Verification.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D1003D292C503F000B15D1 /* Verification.swift */; };
+		B7D10040292C5397000B15D1 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D1003F292C5397000B15D1 /* Location.swift */; };
+		B7D10042292C5468000B15D1 /* AccountConfirmation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D10041292C5468000B15D1 /* AccountConfirmation.swift */; };
+		B7D10044292EE77D000B15D1 /* TabNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D10043292EE77D000B15D1 /* TabNavigation.swift */; };
+		B7D10046292EE79E000B15D1 /* RecommendedEventsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D10045292EE79E000B15D1 /* RecommendedEventsPage.swift */; };
+		B7D1004A292EE7AE000B15D1 /* HomePageWithEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D10049292EE7AE000B15D1 /* HomePageWithEvents.swift */; };
+		B7D1004C292EE7BB000B15D1 /* SearchPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D1004B292EE7BB000B15D1 /* SearchPage.swift */; };
+		B7D1004E292EFAFB000B15D1 /* FormSubmissionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D1004D292EFAFB000B15D1 /* FormSubmissionPage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7D10011292C4A54000B15D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7D1FFF8292C4A51000B15D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7D1FFFF292C4A51000B15D1;
+			remoteInfo = Learnity;
+		};
+		B7D1001B292C4A54000B15D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7D1FFF8292C4A51000B15D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7D1FFFF292C4A51000B15D1;
+			remoteInfo = Learnity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B7BD4FA52935AD4C002592CA /* Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition.swift; sourceTree = "<group>"; };
+		B7BD4FA72936CF0A002592CA /* Login Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Login Page.swift"; sourceTree = "<group>"; };
+		B7BD4FA92936D0E3002592CA /* Create your account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Create your account.swift"; sourceTree = "<group>"; };
+		B7BD4FAB2936D144002592CA /* ConfirmPass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmPass.swift; sourceTree = "<group>"; };
+		B7BD4FAD2936D223002592CA /* Email submission page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Email submission page.swift"; sourceTree = "<group>"; };
+		B7BD4FAF2936D321002592CA /* Contact Us Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Contact Us Page.swift"; sourceTree = "<group>"; };
+		B7BD4FB12936D338002592CA /* Cancel Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Cancel Page.swift"; sourceTree = "<group>"; };
+		B7BD4FB32936DBD2002592CA /* Event Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Event Page.swift"; sourceTree = "<group>"; };
+		B7BD4FB52936F1BE002592CA /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		B7BD4FB72936F299002592CA /* EditEventFormOwner .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EditEventFormOwner .swift"; sourceTree = "<group>"; };
+		B7BD4FB92936F4A9002592CA /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		B7BD4FBB2936FF78002592CA /* Settings Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Settings Main.swift"; sourceTree = "<group>"; };
+		B7BD4FBD2937039C002592CA /* EventFormOwner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventFormOwner.swift; sourceTree = "<group>"; };
+		B7BD4FBF29370F54002592CA /* EditEventFormSharer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEventFormSharer.swift; sourceTree = "<group>"; };
+		B7BD4FC129370FED002592CA /* EventFormSharer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventFormSharer.swift; sourceTree = "<group>"; };
+		B7BD4FC329371613002592CA /* TransitionCancel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionCancel.swift; sourceTree = "<group>"; };
+		B7BD4FC529384AD5002592CA /* TransitionSaved.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionSaved.swift; sourceTree = "<group>"; };
+		B7BD4FC72938F72D002592CA /* EventSubmissionPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventSubmissionPage.swift; sourceTree = "<group>"; };
+		B7BD4FCB2939757A002592CA /* MyInterestsPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyInterestsPage.swift; sourceTree = "<group>"; };
+		B7BD4FCD29397596002592CA /* EditInterestsPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditInterestsPage.swift; sourceTree = "<group>"; };
+		B7BD4FCF293975B1002592CA /* AllTopicsPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllTopicsPage.swift; sourceTree = "<group>"; };
+		B7BD4FD1293975C0002592CA /* CodingTopicPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodingTopicPage.swift; sourceTree = "<group>"; };
+		B7BD4FD329398115002592CA /* EditEventPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditEventPage.swift; sourceTree = "<group>"; };
+		B7D10000292C4A51000B15D1 /* Learnity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Learnity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7D10003292C4A51000B15D1 /* LearnityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnityApp.swift; sourceTree = "<group>"; };
+		B7D10005292C4A51000B15D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B7D10007292C4A54000B15D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7D1000A292C4A54000B15D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B7D10010292C4A54000B15D1 /* LearnityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7D10014292C4A54000B15D1 /* LearnityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnityTests.swift; sourceTree = "<group>"; };
+		B7D1001A292C4A54000B15D1 /* LearnityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7D1001E292C4A54000B15D1 /* LearnityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnityUITests.swift; sourceTree = "<group>"; };
+		B7D10020292C4A54000B15D1 /* LearnityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnityUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B7D1003D292C503F000B15D1 /* Verification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verification.swift; sourceTree = "<group>"; };
+		B7D1003F292C5397000B15D1 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		B7D10041292C5468000B15D1 /* AccountConfirmation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountConfirmation.swift; sourceTree = "<group>"; };
+		B7D10043292EE77D000B15D1 /* TabNavigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabNavigation.swift; sourceTree = "<group>"; };
+		B7D10045292EE79E000B15D1 /* RecommendedEventsPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendedEventsPage.swift; sourceTree = "<group>"; };
+		B7D10049292EE7AE000B15D1 /* HomePageWithEvents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageWithEvents.swift; sourceTree = "<group>"; };
+		B7D1004B292EE7BB000B15D1 /* SearchPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchPage.swift; sourceTree = "<group>"; };
+		B7D1004D292EFAFB000B15D1 /* FormSubmissionPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormSubmissionPage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7D1000D292C4A54000B15D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7D10017292C4A54000B15D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7D1FFFD292C4A51000B15D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7D10001292C4A51000B15D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7D10000292C4A51000B15D1 /* Learnity.app */,
+				B7D10010292C4A54000B15D1 /* LearnityTests.xctest */,
+				B7D1001A292C4A54000B15D1 /* LearnityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7D10002292C4A51000B15D1 /* Learnity */ = {
+			isa = PBXGroup;
+			children = (
+				B7D10003292C4A51000B15D1 /* LearnityApp.swift */,
+				B7D10005292C4A51000B15D1 /* ContentView.swift */,
+				B7BD4FA72936CF0A002592CA /* Login Page.swift */,
+				B7BD4FA92936D0E3002592CA /* Create your account.swift */,
+				B7BD4FAB2936D144002592CA /* ConfirmPass.swift */,
+				B7BD4FAD2936D223002592CA /* Email submission page.swift */,
+				B7D1003D292C503F000B15D1 /* Verification.swift */,
+				B7D1003F292C5397000B15D1 /* Location.swift */,
+				B7D10041292C5468000B15D1 /* AccountConfirmation.swift */,
+				B7BD4FA52935AD4C002592CA /* Transition.swift */,
+				B7D10043292EE77D000B15D1 /* TabNavigation.swift */,
+				B7D10045292EE79E000B15D1 /* RecommendedEventsPage.swift */,
+				B7D10049292EE7AE000B15D1 /* HomePageWithEvents.swift */,
+				B7D1004B292EE7BB000B15D1 /* SearchPage.swift */,
+				B7BD4FCB2939757A002592CA /* MyInterestsPage.swift */,
+				B7BD4FCD29397596002592CA /* EditInterestsPage.swift */,
+				B7BD4FCF293975B1002592CA /* AllTopicsPage.swift */,
+				B7BD4FD1293975C0002592CA /* CodingTopicPage.swift */,
+				B7D1004D292EFAFB000B15D1 /* FormSubmissionPage.swift */,
+				B7BD4FB32936DBD2002592CA /* Event Page.swift */,
+				B7BD4FD329398115002592CA /* EditEventPage.swift */,
+				B7BD4FBD2937039C002592CA /* EventFormOwner.swift */,
+				B7BD4FB72936F299002592CA /* EditEventFormOwner .swift */,
+				B7BD4FBF29370F54002592CA /* EditEventFormSharer.swift */,
+				B7BD4FC129370FED002592CA /* EventFormSharer.swift */,
+				B7BD4FC72938F72D002592CA /* EventSubmissionPage.swift */,
+				B7BD4FC529384AD5002592CA /* TransitionSaved.swift */,
+				B7BD4FB12936D338002592CA /* Cancel Page.swift */,
+				B7BD4FC329371613002592CA /* TransitionCancel.swift */,
+				B7BD4FBB2936FF78002592CA /* Settings Main.swift */,
+				B7BD4FB52936F1BE002592CA /* Settings.swift */,
+				B7BD4FB92936F4A9002592CA /* About.swift */,
+				B7BD4FAF2936D321002592CA /* Contact Us Page.swift */,
+				B7D10007292C4A54000B15D1 /* Assets.xcassets */,
+				B7D10009292C4A54000B15D1 /* Preview Content */,
+			);
+			path = Learnity;
+			sourceTree = "<group>";
+		};
+		B7D10009292C4A54000B15D1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B7D1000A292C4A54000B15D1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B7D10013292C4A54000B15D1 /* LearnityTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7D10014292C4A54000B15D1 /* LearnityTests.swift */,
+			);
+			path = LearnityTests;
+			sourceTree = "<group>";
+		};
+		B7D1001D292C4A54000B15D1 /* LearnityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B7D1001E292C4A54000B15D1 /* LearnityUITests.swift */,
+				B7D10020292C4A54000B15D1 /* LearnityUITestsLaunchTests.swift */,
+			);
+			path = LearnityUITests;
+			sourceTree = "<group>";
+		};
+		B7D1FFF7292C4A51000B15D1 = {
+			isa = PBXGroup;
+			children = (
+				B7D10002292C4A51000B15D1 /* Learnity */,
+				B7D10013292C4A54000B15D1 /* LearnityTests */,
+				B7D1001D292C4A54000B15D1 /* LearnityUITests */,
+				B7D10001292C4A51000B15D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7D1000F292C4A54000B15D1 /* LearnityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7D10027292C4A54000B15D1 /* Build configuration list for PBXNativeTarget "LearnityTests" */;
+			buildPhases = (
+				B7D1000C292C4A54000B15D1 /* Sources */,
+				B7D1000D292C4A54000B15D1 /* Frameworks */,
+				B7D1000E292C4A54000B15D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7D10012292C4A54000B15D1 /* PBXTargetDependency */,
+			);
+			name = LearnityTests;
+			productName = LearnityTests;
+			productReference = B7D10010292C4A54000B15D1 /* LearnityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B7D10019292C4A54000B15D1 /* LearnityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7D1002A292C4A54000B15D1 /* Build configuration list for PBXNativeTarget "LearnityUITests" */;
+			buildPhases = (
+				B7D10016292C4A54000B15D1 /* Sources */,
+				B7D10017292C4A54000B15D1 /* Frameworks */,
+				B7D10018292C4A54000B15D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7D1001C292C4A54000B15D1 /* PBXTargetDependency */,
+			);
+			name = LearnityUITests;
+			productName = LearnityUITests;
+			productReference = B7D1001A292C4A54000B15D1 /* LearnityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		B7D1FFFF292C4A51000B15D1 /* Learnity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7D10024292C4A54000B15D1 /* Build configuration list for PBXNativeTarget "Learnity" */;
+			buildPhases = (
+				B7D1FFFC292C4A51000B15D1 /* Sources */,
+				B7D1FFFD292C4A51000B15D1 /* Frameworks */,
+				B7D1FFFE292C4A51000B15D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Learnity;
+			productName = Learnity;
+			productReference = B7D10000292C4A51000B15D1 /* Learnity.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7D1FFF8292C4A51000B15D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					B7D1000F292C4A54000B15D1 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = B7D1FFFF292C4A51000B15D1;
+					};
+					B7D10019292C4A54000B15D1 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = B7D1FFFF292C4A51000B15D1;
+					};
+					B7D1FFFF292C4A51000B15D1 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = B7D1FFFB292C4A51000B15D1 /* Build configuration list for PBXProject "Learnity" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7D1FFF7292C4A51000B15D1;
+			productRefGroup = B7D10001292C4A51000B15D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7D1FFFF292C4A51000B15D1 /* Learnity */,
+				B7D1000F292C4A54000B15D1 /* LearnityTests */,
+				B7D10019292C4A54000B15D1 /* LearnityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7D1000E292C4A54000B15D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7D10018292C4A54000B15D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7D1FFFE292C4A51000B15D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7D1000B292C4A54000B15D1 /* Preview Assets.xcassets in Resources */,
+				B7D10008292C4A54000B15D1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7D1000C292C4A54000B15D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7D10015292C4A54000B15D1 /* LearnityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7D10016292C4A54000B15D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7D10021292C4A54000B15D1 /* LearnityUITestsLaunchTests.swift in Sources */,
+				B7D1001F292C4A54000B15D1 /* LearnityUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7D1FFFC292C4A51000B15D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7BD4FD2293975C0002592CA /* CodingTopicPage.swift in Sources */,
+				B7D10046292EE79E000B15D1 /* RecommendedEventsPage.swift in Sources */,
+				B7BD4FC82938F72D002592CA /* EventSubmissionPage.swift in Sources */,
+				B7D10040292C5397000B15D1 /* Location.swift in Sources */,
+				B7D10042292C5468000B15D1 /* AccountConfirmation.swift in Sources */,
+				B7BD4FA62935AD4C002592CA /* Transition.swift in Sources */,
+				B7BD4FA82936CF0A002592CA /* Login Page.swift in Sources */,
+				B7D10006292C4A51000B15D1 /* ContentView.swift in Sources */,
+				B7D1003E292C503F000B15D1 /* Verification.swift in Sources */,
+				B7BD4FAA2936D0E3002592CA /* Create your account.swift in Sources */,
+				B7BD4FB22936D338002592CA /* Cancel Page.swift in Sources */,
+				B7BD4FCE29397596002592CA /* EditInterestsPage.swift in Sources */,
+				B7BD4FAC2936D144002592CA /* ConfirmPass.swift in Sources */,
+				B7D10044292EE77D000B15D1 /* TabNavigation.swift in Sources */,
+				B7BD4FD0293975B1002592CA /* AllTopicsPage.swift in Sources */,
+				B7BD4FB02936D321002592CA /* Contact Us Page.swift in Sources */,
+				B7BD4FCC2939757B002592CA /* MyInterestsPage.swift in Sources */,
+				B7BD4FBA2936F4A9002592CA /* About.swift in Sources */,
+				B7D10004292C4A51000B15D1 /* LearnityApp.swift in Sources */,
+				B7BD4FB62936F1BE002592CA /* Settings.swift in Sources */,
+				B7BD4FBE2937039C002592CA /* EventFormOwner.swift in Sources */,
+				B7D1004E292EFAFB000B15D1 /* FormSubmissionPage.swift in Sources */,
+				B7D1004C292EE7BB000B15D1 /* SearchPage.swift in Sources */,
+				B7BD4FC229370FED002592CA /* EventFormSharer.swift in Sources */,
+				B7BD4FB42936DBD2002592CA /* Event Page.swift in Sources */,
+				B7BD4FD429398115002592CA /* EditEventPage.swift in Sources */,
+				B7BD4FC029370F54002592CA /* EditEventFormSharer.swift in Sources */,
+				B7BD4FC629384AD5002592CA /* TransitionSaved.swift in Sources */,
+				B7BD4FAE2936D223002592CA /* Email submission page.swift in Sources */,
+				B7D1004A292EE7AE000B15D1 /* HomePageWithEvents.swift in Sources */,
+				B7BD4FB82936F299002592CA /* EditEventFormOwner .swift in Sources */,
+				B7BD4FBC2936FF78002592CA /* Settings Main.swift in Sources */,
+				B7BD4FC429371613002592CA /* TransitionCancel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7D10012292C4A54000B15D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7D1FFFF292C4A51000B15D1 /* Learnity */;
+			targetProxy = B7D10011292C4A54000B15D1 /* PBXContainerItemProxy */;
+		};
+		B7D1001C292C4A54000B15D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7D1FFFF292C4A51000B15D1 /* Learnity */;
+			targetProxy = B7D1001B292C4A54000B15D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B7D10022292C4A54000B15D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7D10023292C4A54000B15D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7D10025292C4A54000B15D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Learnity/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Learnity.Learnity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7D10026292C4A54000B15D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Learnity/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Learnity.Learnity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B7D10028292C4A54000B15D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Learnity.LearnityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Learnity.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Learnity";
+			};
+			name = Debug;
+		};
+		B7D10029292C4A54000B15D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Learnity.LearnityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Learnity.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Learnity";
+			};
+			name = Release;
+		};
+		B7D1002B292C4A54000B15D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Learnity.LearnityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Learnity;
+			};
+			name = Debug;
+		};
+		B7D1002C292C4A54000B15D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Learnity.LearnityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Learnity;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7D10024292C4A54000B15D1 /* Build configuration list for PBXNativeTarget "Learnity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7D10025292C4A54000B15D1 /* Debug */,
+				B7D10026292C4A54000B15D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7D10027292C4A54000B15D1 /* Build configuration list for PBXNativeTarget "LearnityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7D10028292C4A54000B15D1 /* Debug */,
+				B7D10029292C4A54000B15D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7D1002A292C4A54000B15D1 /* Build configuration list for PBXNativeTarget "LearnityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7D1002B292C4A54000B15D1 /* Debug */,
+				B7D1002C292C4A54000B15D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7D1FFFB292C4A51000B15D1 /* Build configuration list for PBXProject "Learnity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7D10022292C4A54000B15D1 /* Debug */,
+				B7D10023292C4A54000B15D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7D1FFF8292C4A51000B15D1 /* Project object */;
+}
